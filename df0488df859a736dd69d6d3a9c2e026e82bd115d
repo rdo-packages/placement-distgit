@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_0e8ce433",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T15:39:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_2ea208af",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 65
+      },
+      "revId": "df0488df859a736dd69d6d3a9c2e026e82bd115d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_4ec41c5e",
         "filename": "openstack-placement.spec",
         "patchSetId": 11
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_ee82d0ff",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T15:39:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_4ec41c5e",
+      "range": {
+        "startLine": 151,
+        "startChar": 1,
+        "endLine": 151,
+        "endChar": 27
+      },
+      "revId": "df0488df859a736dd69d6d3a9c2e026e82bd115d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_0ea504b4",
         "filename": "openstack-placement.spec",
         "patchSetId": 11
@@ -59,6 +107,24 @@
       "writtenOn": "2018-11-06T15:21:44Z",
       "side": 1,
       "message": "WRT running unit tests in %check, i\u0027ve executed unit tests and took ~ 1 sec:\n\n\u003d\u003d\u003d\u003d\u003d\u003d\nTotals\n\u003d\u003d\u003d\u003d\u003d\u003d\nRan: 128 tests in 1.0000 sec.\n - Passed: 128\n - Skipped: 0\n - Expected Fail: 0\n - Unexpected Success: 0\n - Failed: 0\nSum of execute time for each test: 1.1705 sec.\n\nSo, i\u0027d add them.",
+      "revId": "df0488df859a736dd69d6d3a9c2e026e82bd115d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_ee99b06f",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 11
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T15:39:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_0ea504b4",
       "revId": "df0488df859a736dd69d6d3a9c2e026e82bd115d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
