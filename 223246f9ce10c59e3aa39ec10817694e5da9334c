@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_d3b9f57a",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "There is, I was just following the openstack-nova example where we don\u0027t build docs by default. I\u0027ll include a docs package now.",
+      "parentUuid": "9abe1de1_f3d199ce",
+      "range": {
+        "startLine": 13,
+        "startChar": 8,
+        "endLine": 13,
+        "endChar": 16
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_d3d455be",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "What\u0027s this with_trans flag?",
+      "range": {
+        "startLine": 14,
+        "startChar": 8,
+        "endLine": 14,
+        "endChar": 18
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_93737de7",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Again copied over from the openstack-nova example, I think this relates to translations being included in the docs package. Looks obsolete in both so I\u0027ll remove it here and in openstack-nova.",
+      "parentUuid": "9abe1de1_d3d455be",
       "range": {
         "startLine": 14,
         "startChar": 8,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_f344f974",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_7378e9f2",
+      "range": {
+        "startLine": 22,
+        "startChar": 18,
+        "endLine": 22,
+        "endChar": 19
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_5373a515",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -82,6 +154,30 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "This should be XXX for DLRN.",
+      "range": {
+        "startLine": 23,
+        "startChar": 18,
+        "endLine": 23,
+        "endChar": 23
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_d347b575",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_5373a515",
       "range": {
         "startLine": 23,
         "startChar": 18,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_b35fa140",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_13640d47",
+      "range": {
+        "startLine": 24,
+        "startChar": 18,
+        "endLine": 24,
+        "endChar": 19
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_f35ab982",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -128,6 +248,30 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "Don\u0027t worry to much about workaround before releases. DLRN builds based on commits, no releases are needed and by the time when we will build a official package in CBS there will be a release (GA time, if there is no release by then, it will be a problem anyway).",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 50
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_935a5d4f",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_f35ab982",
       "range": {
         "startLine": 30,
         "startChar": 0,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_7359095a",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_d35d757a",
+      "range": {
+        "startLine": 32,
+        "startChar": 19,
+        "endLine": 32,
+        "endChar": 86
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_b3556151",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -174,6 +342,30 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "extra blank",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 1
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_5354c51f",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_b3556151",
       "range": {
         "startLine": 37,
         "startChar": 0,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_532ba594",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_13f2cd6f",
+      "range": {
+        "startLine": 49,
+        "startChar": 17,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_33ef1189",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -220,6 +436,24 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "I\u0027d say openstack-placement should require python%{pyver}-placement",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_33195189",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_33ef1189",
       "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
@@ -249,6 +483,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_131c0d76",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_93501d60",
+      "range": {
+        "startLine": 51,
+        "startChar": 12,
+        "endLine": 51,
+        "endChar": 13
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_734fc9bd",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -266,6 +524,24 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_ae3bb8d0",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "As discussed I think we should hold off on this for now to avoid blocking our own CI until all deployment projects switch to an extracted placement service during the cycle.",
+      "parentUuid": "9abe1de1_734fc9bd",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_93d7fdbe",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -277,6 +553,24 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "pythonX-placement is missing all requirements in https://github.com/openstack/placement/blob/master/requirements.txt",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_ce238ca6",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_93d7fdbe",
       "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
@@ -306,6 +600,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_8e36b4e5",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_534a85ad",
+      "range": {
+        "startLine": 76,
+        "startChar": 34,
+        "endLine": 76,
+        "endChar": 40
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_73e6a9b5",
         "filename": "openstack-placement.spec",
         "patchSetId": 4
@@ -317,6 +635,24 @@
       "writtenOn": "2018-11-06T10:03:06Z",
       "side": 1,
       "message": "Could we run unit tests in %check?",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_ee6e50c8",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2018-11-06T11:05:03Z",
+      "side": 1,
+      "message": "The openstack-nova tests appear disabled, if you\u0027re okay with them taking ~5mins then I can add them in a future PS.",
+      "parentUuid": "9abe1de1_73e6a9b5",
       "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
