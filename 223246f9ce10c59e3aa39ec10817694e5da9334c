@@ -1,0 +1,348 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_f3d199ce",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "There is no doc yet?, if there is, we should build it and create doc subpackage.",
+      "range": {
+        "startLine": 13,
+        "startChar": 8,
+        "endLine": 13,
+        "endChar": 16
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_d3d455be",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "What\u0027s this with_trans flag?",
+      "range": {
+        "startLine": 14,
+        "startChar": 8,
+        "endLine": 14,
+        "endChar": 18
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_7378e9f2",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "package name is different that former nova one, openstack-nova-placement, do we need to bump epoch?",
+      "range": {
+        "startLine": 22,
+        "startChar": 18,
+        "endLine": 22,
+        "endChar": 19
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_5373a515",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "This should be XXX for DLRN.",
+      "range": {
+        "startLine": 23,
+        "startChar": 18,
+        "endLine": 23,
+        "endChar": 23
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_13640d47",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "This should be XXX for DLRN.",
+      "range": {
+        "startLine": 24,
+        "startChar": 18,
+        "endLine": 24,
+        "endChar": 19
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_f35ab982",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "Don\u0027t worry to much about workaround before releases. DLRN builds based on commits, no releases are needed and by the time when we will build a official package in CBS there will be a release (GA time, if there is no release by then, it will be a problem anyway).",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 50
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_d35d757a",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "Souce0 is not used by DLRN. Set the one used by GA:\n\nhttp://tarballs.openstack.org/placement/placement-%{upstream_version}.tar.gz",
+      "range": {
+        "startLine": 32,
+        "startChar": 19,
+        "endLine": 32,
+        "endChar": 86
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_b3556151",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "extra blank",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 1
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_13f2cd6f",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "So, in this case openstack-placement is like the -common subpackages are for other services holding \"common\" files for the different services that may exist, as config files, comon executables, etc... If so the common pattern is that services subpackages require the -common subpackage and deployers should explicitely install -api not the other way around. In this way, if in the future a new service is added to placement, we could modularly select the services to install and run on each case. Otherwise, there is no much point in creating a subpackage for -api. What do you think?",
+      "range": {
+        "startLine": 49,
+        "startChar": 17,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_33ef1189",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "I\u0027d say openstack-placement should require python%{pyver}-placement",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_93501d60",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "extra blank",
+      "range": {
+        "startLine": 51,
+        "startChar": 12,
+        "endLine": 51,
+        "endChar": 13
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_734fc9bd",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "Should we obsolete old openstack-nova-placement with api or pythonX-placement for upgrades?",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_93d7fdbe",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "pythonX-placement is missing all requirements in https://github.com/openstack/placement/blob/master/requirements.txt",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_534a85ad",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "%{upstream_version}",
+      "range": {
+        "startLine": 76,
+        "startChar": 34,
+        "endLine": 76,
+        "endChar": 40
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_73e6a9b5",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "Could we run unit tests in %check?",
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_13cbed1f",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-06T10:03:06Z",
+      "side": 1,
+      "message": "Should we include tests in a separate python%{pyver}-placement-tests subpackage?",
+      "range": {
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 41
+      },
+      "revId": "223246f9ce10c59e3aa39ec10817694e5da9334c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
