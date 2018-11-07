@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_69359ad8",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 19
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:55:55Z",
+      "side": 1,
+      "message": "I think you need:\n\n%config(noreplace) %attr(-, root, placement) %{_sysconfdir}/placement/placement.conf",
+      "range": {
+        "startLine": 227,
+        "startChar": 0,
+        "endLine": 227,
+        "endChar": 81
+      },
+      "revId": "3ce9d47ac34d9c553fdd91e162dbc808008a09d3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
