@@ -1,0 +1,187 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_e909aa2d",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "Let\u0027s enable docs.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 18
+      },
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_c90ca63d",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "IIUC with_trans is not needed, could we get rid of it?",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 60
+      },
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_092a9e7e",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "Missing oslo-policy?",
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_a93bb2d0",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "Required packages to run unit tests which are not requirements for pythonX-placement should be included as Requires of -tests subpackages. This includes test suites packages.",
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_a914d243",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "It\u0027s using python2 in fedora even using python3-os-testr, add following line before\n\nexport PYTHON\u003d%{pyver_bin}",
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_c92386a6",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "According to https://github.com/openstack/placement/blob/master/tox.ini it seems it\u0027s using stestr instead of ostestr, although both should work.",
+      "range": {
+        "startLine": 206,
+        "startChar": 36,
+        "endLine": 206,
+        "endChar": 43
+      },
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_691eba64",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "Remove this line to avoid generating an empty openstack-placement package.",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 6
+      },
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_890fce2d",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "There is not placement.conf or similar?",
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_4919b678",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 18
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-11-07T09:53:09Z",
+      "side": 1,
+      "message": "Most projects does not provide a httpd config in packaging. It\u0027s ok to have it but make sure that it does not conflicts with the one generated by deployment tools. An alternative would be to include as doc file (to be used as example) or disabled by default.",
+      "range": {
+        "startLine": 227,
+        "startChar": 0,
+        "endLine": 227,
+        "endChar": 68
+      },
+      "revId": "1ce7a32f923f188047028eb5fa664c9a774457f9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
