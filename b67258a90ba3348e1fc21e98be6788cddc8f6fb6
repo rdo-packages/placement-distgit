@@ -46,6 +46,30 @@
       "revId": "b67258a90ba3348e1fc21e98be6788cddc8f6fb6",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_df6e94c8",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 32
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2018-11-13T09:30:42Z",
+      "side": 1,
+      "message": "It is already included as a doc, so we should be ok.",
+      "parentUuid": "9abe1de1_1f752c97",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 196,
+        "endChar": 99
+      },
+      "revId": "b67258a90ba3348e1fc21e98be6788cddc8f6fb6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
