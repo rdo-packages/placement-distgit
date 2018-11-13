@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_1f008c00",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 30
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-11-13T05:10:19Z",
+      "side": 1,
+      "message": "can u check if these are still needed after migration to stestr and do the cleanup",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 46
+      },
+      "revId": "31a50ea7145e8982885a9421ae309697518e2bb0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_8408d52e",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 30
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-11-13T05:10:19Z",
+      "side": 1,
+      "message": "need to adjust this for python3, python3 package name is python3-mod_wsgi",
+      "range": {
+        "startLine": 98,
+        "startChar": 18,
+        "endLine": 98,
+        "endChar": 26
+      },
+      "revId": "31a50ea7145e8982885a9421ae309697518e2bb0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
