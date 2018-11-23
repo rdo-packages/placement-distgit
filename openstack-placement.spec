@@ -56,6 +56,7 @@ BuildRequires:    python%{pyver}-oslo-i18n
 BuildRequires:    python%{pyver}-oslo-middleware
 BuildRequires:    python%{pyver}-oslo-serialization
 BuildRequires:    python%{pyver}-oslo-policy
+BuildRequires:    python%{pyver}-oslo-upgradecheck
 BuildRequires:    python%{pyver}-oslo-utils
 BuildRequires:    python%{pyver}-oslo-versionedobjects
 BuildRequires:    python%{pyver}-oslotest
@@ -123,6 +124,7 @@ Requires:         python%{pyver}-oslo-i18n >= 3.15.3
 Requires:         python%{pyver}-oslo-log >= 3.36.0
 Requires:         python%{pyver}-oslo-middleware >= 3.31.0
 Requires:         python%{pyver}-oslo-serialization >= 2.18.0
+Requires:         python%{pyver}-oslo-upgradecheck >= 0.1.0
 Requires:         python%{pyver}-oslo-utils >= 3.33.0
 Requires:         python%{pyver}-oslo-versionedobjects >= 1.31.2
 Requires:         python%{pyver}-oslo-policy >= 1.35.0
@@ -233,6 +235,8 @@ exit 0
 %files common
 %license LICENSE
 %doc etc/placement/policy.yaml.sample
+%{_bindir}/placement-manage
+%{_bindir}/placement-status
 %dir %{_datarootdir}/placement
 %attr(-, root, placement) %{_datarootdir}/placement/placement-dist.conf
 %dir %{_sysconfdir}/placement
