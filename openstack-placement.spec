@@ -56,6 +56,7 @@ BuildRequires:    python%{pyver}-oslo-i18n
 BuildRequires:    python%{pyver}-oslo-middleware
 BuildRequires:    python%{pyver}-oslo-serialization
 BuildRequires:    python%{pyver}-oslo-policy
+BuildRequires:    python%{pyver}-oslo-upgradecheck
 BuildRequires:    python%{pyver}-oslo-utils
 BuildRequires:    python%{pyver}-oslo-versionedobjects
 BuildRequires:    python%{pyver}-oslotest
@@ -123,6 +124,7 @@ Requires:         python%{pyver}-oslo-i18n >= 3.15.3
 Requires:         python%{pyver}-oslo-log >= 3.36.0
 Requires:         python%{pyver}-oslo-middleware >= 3.31.0
 Requires:         python%{pyver}-oslo-serialization >= 2.18.0
+Requires:         python%{pyver}-oslo-upgradecheck >= 0.1.0
 Requires:         python%{pyver}-oslo-utils >= 3.33.0
 Requires:         python%{pyver}-oslo-versionedobjects >= 1.31.2
 Requires:         python%{pyver}-oslo-policy >= 1.35.0
@@ -240,6 +242,8 @@ exit 0
 %config(noreplace) %attr(-, root, placement) %{_sysconfdir}/placement/policy.json
 %config(noreplace) %{_sysconfdir}/logrotate.d/openstack-placement
 %dir %attr(0750, placement, root) %{_localstatedir}/log/placement
+%{_bindir}/placement-manage
+%{_bindir}/placement-status
 
 %files api
 %license LICENSE
@@ -264,3 +268,4 @@ exit 0
 
 %changelog
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/placement/commit/?id=7b5218d8e320cc1c939f4cea1eac9869a50c2cf6
