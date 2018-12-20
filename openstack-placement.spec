@@ -66,6 +66,7 @@ BuildRequires:    python%{pyver}-tooz
 BuildRequires:    python%{pyver}-oslo-vmware
 BuildRequires:    python%{pyver}-cursive
 BuildRequires:    python%{pyver}-os-service-types
+BuildRequires:    python%{pyver}-os-resource-classes
 BuildRequires:    python%{pyver}-microversion-parse
 BuildRequires:    python%{pyver}-jsonschema
 BuildRequires:    python%{pyver}-sqlalchemy
@@ -116,6 +117,7 @@ Requires:         python%{pyver}-keystonemiddleware >= 4.17.0
 Requires:         python%{pyver}-jsonschema >= 2.6.0
 Requires:         python%{pyver}-microversion-parse >= 0.2.1
 Requires:         python%{pyver}-os-traits
+Requires:         python%{pyver}-os-resource-classes
 Requires:         python%{pyver}-oslo-concurrency >= 3.26.0
 Requires:         python%{pyver}-oslo-config >= 2:6.1.0
 Requires:         python%{pyver}-oslo-context >= 2.19.2
