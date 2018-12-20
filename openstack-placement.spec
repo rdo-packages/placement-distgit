@@ -222,6 +222,11 @@ install -p -D -m 640 %{SOURCE4} %{buildroot}%{_sysconfdir}/placement/policy.json
 # Install logrotate
 install -p -D -m 644 %{SOURCE2} %{buildroot}%{_sysconfdir}/logrotate.d/openstack-placement
 
+# Install migrate-db.sh scripts under /usr/share/placement/
+install -d -m 755 %{buildroot}%{_datarootdir}/placement
+install -p -D -m 644 tools/mysql-migrate-db.sh %{buildroot}%{_datarootdir}/placement/mysql-migrate-db.sh
+install -p -D -m 644 tools/postgresql-migrate-db.sh %{buildroot}%{_datarootdir}/placement/postgresql-migrate-db.sh
+
 %check
 export PYTHON=%{pyver_bin}
 OS_TEST_PATH=./placement/tests/unit stestr-%{pyver} run
@@ -239,6 +244,8 @@ exit 0
 %{_bindir}/placement-status
 %dir %{_datarootdir}/placement
 %attr(-, root, placement) %{_datarootdir}/placement/placement-dist.conf
+%{_datarootdir}/placement/mysql-migrate-db.sh
+%{_datarootdir}/placement/postgresql-migrate-db.sh
 %dir %{_sysconfdir}/placement
 %config(noreplace) %attr(-, root, placement) %{_sysconfdir}/placement/placement.conf
 %config(noreplace) %attr(-, root, placement) %{_sysconfdir}/placement/policy.json
