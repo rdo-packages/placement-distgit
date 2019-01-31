@@ -71,7 +71,7 @@ BuildRequires:    python%{pyver}-microversion-parse
 BuildRequires:    python%{pyver}-jsonschema
 BuildRequires:    python%{pyver}-sqlalchemy
 BuildRequires:    python%{pyver}-routes
-BuildRequires:    python%{pyver}-webob
+BuildRequires:    python%{pyver}-webob >= 1.8.2
 BuildRequires:    python%{pyver}-keystonemiddleware
 BuildRequires:    python%{pyver}-requests
 BuildRequires:    python%{pyver}-stestr
