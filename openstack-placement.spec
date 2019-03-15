@@ -113,21 +113,21 @@ Summary:          Placement Python libraries
 Requires:         python%{pyver}-sqlalchemy >= 1.0.10
 Requires:         python%{pyver}-routes >= 2.3.1
 Requires:         python%{pyver}-webob >= 1.8.2
-Requires:         python%{pyver}-keystonemiddleware >= 4.17.0
+Requires:         python%{pyver}-keystonemiddleware >= 4.18.0
 Requires:         python%{pyver}-jsonschema >= 2.6.0
 Requires:         python%{pyver}-microversion-parse >= 0.2.1
 Requires:         python%{pyver}-os-traits
 Requires:         python%{pyver}-os-resource-classes
 Requires:         python%{pyver}-oslo-concurrency >= 3.26.0
-Requires:         python%{pyver}-oslo-config >= 2:6.1.0
+Requires:         python%{pyver}-oslo-config >= 2:6.7.0
 Requires:         python%{pyver}-oslo-context >= 2.19.2
 Requires:         python%{pyver}-oslo-db >= 4.40.0
 Requires:         python%{pyver}-oslo-i18n >= 3.15.3
 Requires:         python%{pyver}-oslo-log >= 3.36.0
 Requires:         python%{pyver}-oslo-middleware >= 3.31.0
 Requires:         python%{pyver}-oslo-serialization >= 2.18.0
-Requires:         python%{pyver}-oslo-upgradecheck >= 0.1.0
-Requires:         python%{pyver}-oslo-utils >= 3.33.0
+Requires:         python%{pyver}-oslo-upgradecheck >= 0.2.0
+Requires:         python%{pyver}-oslo-utils >= 3.37.0
 Requires:         python%{pyver}-oslo-versionedobjects >= 1.31.2
 Requires:         python%{pyver}-oslo-policy >= 1.35.0
 Requires:         python%{pyver}-pbr >= 2.0.0
