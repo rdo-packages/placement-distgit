@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a47c630c_833dd47f",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-03-18T03:59:37Z",
+      "side": 1,
+      "message": "we can do some more cleanup as per https://github.com/openstack/placement/commit/bed7808b59da04b43251be920d7754fc2f93a3e5#diff-b4ef698db8ca845e5845c4618278f29a and https://github.com/openstack/placement/commit/07bdda6148606722e07313d6405d903b479e6bcc#diff-b4ef698db8ca845e5845c4618278f29a",
+      "revId": "167cf9984c8ae6a506386b5fb990b5cd6131ee32",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
