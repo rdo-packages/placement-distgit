@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f49903e7_c560673b",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2019-03-18T09:23:56Z",
+      "side": 1,
+      "message": "I\u0027m not sure if we actually need this.",
+      "range": {
+        "startLine": 152,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 46
+      },
+      "revId": "69fefd4cb2aefe79de8ce0c5aef87d1d88cad572",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
