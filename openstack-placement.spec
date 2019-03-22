@@ -28,7 +28,7 @@ Summary:          OpenStack Placement
 License:          ASL 2.0
 URL:              http://git.openstack.org/cgit/openstack/placement/
 
-Source0:          https://tarballs.openstack.org/placement/placement-%{upstream_version}.tar.gz
+Source0:          https://tarballs.openstack.org/placement/openstack-placement-%{upstream_version}.tar.gz
 Source1:          placement-dist.conf
 Source2:          placement.logrotate
 Source3:          placement-api.conf
