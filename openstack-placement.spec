@@ -1,4 +1,4 @@
-%global milestone .0rc2
+%global milestone .0rc3
 # Macros for py2/py3 compatibility
 %if 0%{?fedora} || 0%{?rhel} > 7
 %global pyver %{python3_pkgversion}
@@ -23,7 +23,7 @@ in a cloud.
 
 Name:             openstack-placement
 Version:          1.0.0
-Release:          0.2%{?milestone}%{?dist}
+Release:          0.3%{?milestone}%{?dist}
 Summary:          OpenStack Placement
 
 License:          ASL 2.0
@@ -31,7 +31,7 @@ URL:              http://git.openstack.org/cgit/openstack/placement/
 
 Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz
 #
-# patches_base=1.0.0.0rc2
+# patches_base=1.0.0.0rc3
 #
 
 Source1:          placement-dist.conf
@@ -279,6 +279,9 @@ exit 0
 %endif
 
 %changelog
+* Wed Apr 03 2019 RDO <dev@lists.rdoproject.org> 1.0.0-0.3.0rc2
+- Update to 1.0.0.0rc3
+
 * Wed Mar 27 2019 RDO <dev@lists.rdoproject.org> 1.0.0-0.2.0rc1
 - Update to 1.0.0.0rc2
 
