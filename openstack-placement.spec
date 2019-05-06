@@ -90,6 +90,8 @@ between all the OpenStack Placement services.
 
 %package api
 Summary:          OpenStack Placement API service
+Provides:         openstack-nova-placement-api = %{version}-%{release}
+Obsoletes:        openstack-nova-placement-api < 1:19.1.0
 
 Requires:         openstack-placement-common = %{version}-%{release}
 Requires:         httpd
