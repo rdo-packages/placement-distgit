@@ -260,6 +260,7 @@ exit 0
 %files -n python%{pyver}-placement
 %license LICENSE
 %{pyver_sitelib}/placement
+%{pyver_sitelib}/placement_db_tools
 %{pyver_sitelib}/openstack_placement-*.egg-info
 %exclude %{pyver_sitelib}/placement/tests
 
