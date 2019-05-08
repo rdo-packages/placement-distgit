@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2df8c62_f81f7c58",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2019-05-08T08:05:23Z",
+      "side": 1,
+      "message": "I think this probably deserves its own subpackage, but for now let\u0027s keep it as is.",
+      "revId": "a8dd13b3a6c7de1922109fbb03571d8486c9a2d3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
