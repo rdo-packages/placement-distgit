@@ -21,7 +21,7 @@ claiming providers of classes of inventory representing available resources \
 in a cloud.
 
 Name:             openstack-placement
-Version:          1.0.0
+Version:          1.1.0
 Release:          1%{?dist}
 Summary:          OpenStack Placement
 
@@ -276,6 +276,9 @@ exit 0
 %endif
 
 %changelog
+* Wed Jul 24 2019 RDO <dev@lists.rdoproject.org> 1.1.0-1
+- Update to 1.1.0
+
 * Wed Apr 10 2019 RDO <dev@lists.rdoproject.org> 1.0.0-1
 - Update to 1.0.0
 
