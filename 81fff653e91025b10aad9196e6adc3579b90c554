@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2e4ad380_ad874327",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-04-28T06:19:28Z",
+      "side": 1,
+      "message": "oslopolicy-sample-generator",
+      "range": {
+        "startLine": 180,
+        "startChar": 13,
+        "endLine": 180,
+        "endChar": 42
+      },
+      "revId": "81fff653e91025b10aad9196e6adc3579b90c554",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
