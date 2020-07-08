@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a575ac9_dc67f69e",
+        "filename": "placement-api.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2020-07-08T14:58:29Z",
+      "side": 1,
+      "message": "This is what packstack uses:\n\nhttps://logserver.rdoproject.org/ci.centos.org/weirdo-generic-packstack-scenario001/10220/weirdo-project/logs/etc/conf.d/10-placement_wsgi.conf.txt.gz\n\n  \u003cDirectory \"/usr/bin\"\u003e\n    Options -Indexes +FollowSymLinks +MultiViews\n    AllowOverride None\n    Require all granted\n  \u003c/Directory\u003e\n\n\nNote that we don\u0027s support nothing \u003c 2.4, so no need to use conditionals",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 12
+      },
+      "revId": "ccd7fa824086f14bd5a76fb9f7fa9243cd3705f3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
