@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b832d870_d80c5c5f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2020-07-09T10:04:01Z",
+      "side": 1,
+      "message": "What are the verification steps you\u0027re talking about here?\n\nWhat is actually deploying Placement?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 6
+      },
+      "revId": "2d165ca2e1e25b09a86743d1ee48bb18b2d63477",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aee7ac05_f6c9ab49",
+        "filename": "placement-api.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2020-07-09T10:04:01Z",
+      "side": 1,
+      "message": "This doesn\u0027t strike me as a safe thing to do.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 22
+      },
+      "revId": "2d165ca2e1e25b09a86743d1ee48bb18b2d63477",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
