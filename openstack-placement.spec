@@ -1,4 +1,3 @@
-%global milestone .0rc1
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global with_doc 1
@@ -11,15 +10,13 @@ in a cloud.
 
 Name:             openstack-placement
 Version:          4.0.0
-Release:          0.1%{?milestone}%{?dist}
+Release:          1%{?dist}
 Summary:          OpenStack Placement
 
 License:          ASL 2.0
 URL:              http://git.openstack.org/cgit/openstack/placement/
 
 Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz
-#
-# patches_base=4.0.0.0rc1
 #
 
 Source1:          placement-dist.conf
@@ -261,6 +258,9 @@ exit 0
 %endif
 
 %changelog
+* Wed Oct 14 2020 RDO <dev@lists.rdoproject.org> 4.0.0-1
+- Update to 4.0.0
+
 * Mon Sep 28 2020 RDO <dev@lists.rdoproject.org> 4.0.0-0.1.0rc1
 - Update to 4.0.0.0rc1
 
