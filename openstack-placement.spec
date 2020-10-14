@@ -1,4 +1,5 @@
-%global milestone .0rc1
+%{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
+%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global with_doc 1
@@ -11,7 +12,7 @@ in a cloud.
 
 Name:             openstack-placement
 Version:          4.0.0
-Release:          0.1%{?milestone}%{?dist}
+Release:          1%{?dist}
 Summary:          OpenStack Placement
 
 License:          ASL 2.0
@@ -19,15 +20,23 @@ URL:              http://git.openstack.org/cgit/openstack/placement/
 
 Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz
 #
-# patches_base=4.0.0.0rc1
-#
 
 Source1:          placement-dist.conf
 Source2:          placement.logrotate
 Source3:          placement-api.conf
 Source4:          policy.json
+# Required for tarball sources verification
+%if 0%{?sources_gpg} == 1
+Source101:        https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz.asc
+Source102:        https://releases.openstack.org/_static/%{sources_gpg_sign}.txt
+%endif
 
 BuildArch:        noarch
+
+# Required for tarball sources verification
+%if 0%{?sources_gpg} == 1
+BuildRequires:  /usr/bin/gpgv2
+%endif
 BuildRequires:    openstack-macros
 BuildRequires:    intltool
 BuildRequires:    python3-devel
@@ -168,6 +177,10 @@ This package contains documentation files for Placement.
 %endif
 
 %prep
+# Required for tarball sources verification
+%if 0%{?sources_gpg} == 1
+%{gpgverify}  --keyring=%{SOURCE102} --signature=%{SOURCE101} --data=%{SOURCE0}
+%endif
 %autosetup -n openstack-placement-%{upstream_version} -S git
 
 find . \( -name .gitignore -o -name .placeholder \) -delete
@@ -261,6 +274,10 @@ exit 0
 %endif
 
 %changelog
+* Wed Oct 14 2020 RDO <dev@lists.rdoproject.org> 4.0.0-1
+- Update to 4.0.0
+- Implement sources verification using upstream gpg signature
+
 * Mon Sep 28 2020 RDO <dev@lists.rdoproject.org> 4.0.0-0.1.0rc1
 - Update to 4.0.0.0rc1
 
