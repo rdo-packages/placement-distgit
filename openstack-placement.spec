@@ -108,22 +108,22 @@ Requires:         python3-sqlalchemy >= 1.2.19
 Requires:         python3-routes >= 2.3.1
 Requires:         python3-webob >= 1.8.2
 Requires:         python3-keystonemiddleware >= 4.18.0
-Requires:         python3-jsonschema >= 2.6.0
+Requires:         python3-jsonschema >= 3.2.0
 Requires:         python3-microversion-parse >= 0.2.1
-Requires:         python3-os-traits >= 2.4.0
+Requires:         python3-os-traits >= 2.5.0
 Requires:         python3-os-resource-classes >= 0.5.0
 Requires:         python3-oslo-concurrency >= 3.26.0
 Requires:         python3-oslo-config >= 2:6.7.0
-Requires:         python3-oslo-context >= 2.19.2
+Requires:         python3-oslo-context >= 2.22.0
 Requires:         python3-oslo-db >= 4.40.0
-Requires:         python3-oslo-log >= 3.36.0
+Requires:         python3-oslo-log >= 4.3.0
 Requires:         python3-oslo-middleware >= 3.31.0
-Requires:         python3-oslo-serialization >= 2.18.0
-Requires:         python3-oslo-upgradecheck >= 0.2.0
-Requires:         python3-oslo-utils >= 3.37.0
-Requires:         python3-oslo-policy >= 1.35.0
-Requires:         python3-pbr >= 2.0.0
-Requires:         python3-requests >= 2.14.2
+Requires:         python3-oslo-serialization >= 2.25.0
+Requires:         python3-oslo-upgradecheck >= 1.3.0
+Requires:         python3-oslo-utils >= 4.5.0
+Requires:         python3-oslo-policy >= 3.6.0
+Requires:         python3-pbr >= 3.1.1
+Requires:         python3-requests >= 2.25.0
 
 %description -n   python3-placement
 %{common_desc}
