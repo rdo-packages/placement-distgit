@@ -1,0 +1,9 @@
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+2: Yatin Karel <ykarel@redhat.com>
+Workflow+1: Yatin Karel <ykarel@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 15 Sep 2021 10:11:47 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/placement-distgit/+/35484
+Project: openstack/placement-distgit
+Branch: refs/heads/rpm-master
