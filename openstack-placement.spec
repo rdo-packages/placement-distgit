@@ -1,5 +1,6 @@
+%global milestone .0rc1
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x4c29ff0e437f3351fd82bdf47c5a3bc787dc7035
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global with_doc 1
@@ -11,14 +12,18 @@ claiming providers of classes of inventory representing available resources \
 in a cloud.
 
 Name:             openstack-placement
-Version:          XXX
-Release:          XXX
+Version:          6.0.0
+Release:          0.1%{?milestone}%{?dist}
 Summary:          OpenStack Placement
 
 License:          ASL 2.0
 URL:              http://git.openstack.org/cgit/openstack/placement/
 
 Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz
+#
+# patches_base=6.0.0.0rc1
+#
+
 Source1:          placement-dist.conf
 Source2:          placement.logrotate
 Source3:          placement-api.conf
@@ -272,4 +277,7 @@ exit 0
 %endif
 
 %changelog
+* Fri Sep 17 2021 RDO <dev@lists.rdoproject.org> 6.0.0-0.1.0rc1
+- Update to 6.0.0.0rc1
+
 
