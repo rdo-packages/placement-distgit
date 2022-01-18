@@ -1,7 +1,7 @@
 # UUID Group Name
 global:Registered-Users	Registered Users
 4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Service Users
 542b3a7bde771d323939f086f5a83359f2f6228d	openstack/placement-core
 global:Anonymous-Users	Anonymous Users
 8d4ff991b2cf00fee79d04d5114b9fcd99cfc273	openstack/placement-ptl
