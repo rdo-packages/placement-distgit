@@ -45,7 +45,6 @@ BuildRequires:    python3-pbr
 BuildRequires:    python3-six
 BuildRequires:    python3-oslo-policy
 BuildRequires:    python3-ddt
-BuildRequires:    python3-mox3
 BuildRequires:    python3-oslo-rootwrap
 BuildRequires:    python3-oslo-log
 BuildRequires:    python3-oslo-concurrency
