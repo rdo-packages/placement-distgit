@@ -1,0 +1,8 @@
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 05 Oct 2022 17:02:35 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/placement-distgit/+/45499
+Project: openstack/placement-distgit
+Branch: refs/heads/zed-rdo
