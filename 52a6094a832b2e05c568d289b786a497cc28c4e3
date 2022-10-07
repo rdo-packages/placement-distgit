@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd04c5cd_215c7806",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-10-07T11:10:32Z",
+      "side": 1,
+      "message": "missing the cap here",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 1
+      },
+      "revId": "52a6094a832b2e05c568d289b786a497cc28c4e3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
