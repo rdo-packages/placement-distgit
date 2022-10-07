@@ -69,7 +69,7 @@ BuildRequires:    python3-os-service-types
 BuildRequires:    python3-os-resource-classes
 BuildRequires:    python3-microversion-parse
 BuildRequires:    python3-jsonschema
-BuildRequires:    python3-sqlalchemy
+BuildRequires:    python3-sqlalchemy < 1.4.0
 BuildRequires:    python3-routes
 BuildRequires:    python3-webob
 BuildRequires:    python3-keystonemiddleware
@@ -107,6 +107,7 @@ Summary:          Placement Python libraries
 %{?python_provide:%python_provide python3-placement}
 
 Requires:         python3-sqlalchemy >= 1.2.19
+Requires:         python3-sqlalchemy < 1.4.0
 Requires:         python3-routes >= 2.3.1
 Requires:         python3-webob >= 1.8.2
 Requires:         python3-keystonemiddleware >= 4.18.0
@@ -167,7 +168,6 @@ BuildRequires:    python3-sphinx
 BuildRequires:    python3-sphinxcontrib-actdiag
 BuildRequires:    python3-sphinxcontrib-seqdiag
 BuildRequires:    python3-sphinx-feature-classification
-BuildRequires:    python3-sqlalchemy
 BuildRequires:    python3-webob
 
 %description      doc
