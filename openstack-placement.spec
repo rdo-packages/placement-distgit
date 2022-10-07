@@ -107,6 +107,7 @@ Summary:          Placement Python libraries
 %{?python_provide:%python_provide python3-placement}
 
 Requires:         python3-sqlalchemy >= 1.2.19
+Requires:         python3-sqlalchemy < 1.4.0
 Requires:         python3-routes >= 2.3.1
 Requires:         python3-webob >= 1.8.2
 Requires:         python3-keystonemiddleware >= 4.18.0
