@@ -150,7 +150,7 @@ Requires:       python%{pyver}-oslotest >= 3.4.0
 Requires:       python%{pyver}-stestr >= 1.0.0
 Requires:       python%{pyver}-testtools >= 1.8.0
 Requires:       python%{pyver}-gabbi >= 1.35.0
-Requires:       python%{pyver}-wsgi_intercept >= 1.2.2
+Requires:       python%{pyver}-wsgi_intercept >= 1.7.0
 
 %description -n python%{pyver}-placement-tests
 %{common_desc}
