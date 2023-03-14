@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0840aff_5867da3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 142
+      },
+      "writtenOn": "2023-03-14T13:04:50Z",
+      "side": 1,
+      "message": "@karolinku I no longer work on OpenStack sorry.",
+      "revId": "fb8ddf5de86027df95ad013e45771ccd7b0d9867",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
