@@ -1,0 +1,8 @@
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Mon, 18 Sep 2023 07:34:25 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/placement-distgit/+/50064
+Project: openstack/placement-distgit
+Branch: refs/heads/bobcat-rdo
