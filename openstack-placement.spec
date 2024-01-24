@@ -28,7 +28,6 @@ Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_ve
 Source1:          placement-dist.conf
 Source2:          placement.logrotate
 Source3:          placement-api.conf
-Source4:          policy.json
 # Required for tarball sources verification
 %if 0%{?sources_gpg} == 1
 Source101:        https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz.asc
@@ -169,9 +168,6 @@ install -p -D -m 640 etc/placement/placement.conf.sample  %{buildroot}%{_sysconf
 install -p -D -m 640 %{SOURCE1} %{buildroot}%{_datarootdir}/placement/placement-dist.conf
 install -p -D -m 640 %{SOURCE3} %{buildroot}%{_sysconfdir}/httpd/conf.d/00-placement-api.conf
 
-# Install empty policy.json file to cover rpm updates with untouched policy files.
-install -p -D -m 640 %{SOURCE4} %{buildroot}%{_sysconfdir}/placement/policy.json
-
 # Install logrotate
 install -p -D -m 644 %{SOURCE2} %{buildroot}%{_sysconfdir}/logrotate.d/openstack-placement
 
@@ -200,7 +196,6 @@ exit 0
 %{_datarootdir}/placement/postgresql-migrate-db.sh
 %dir %{_sysconfdir}/placement
 %config(noreplace) %attr(-, root, placement) %{_sysconfdir}/placement/placement.conf
-%config(noreplace) %attr(-, root, placement) %{_sysconfdir}/placement/policy.json
 %config(noreplace) %{_sysconfdir}/logrotate.d/openstack-placement
 %dir %attr(0750, placement, root) %{_localstatedir}/log/placement
 
