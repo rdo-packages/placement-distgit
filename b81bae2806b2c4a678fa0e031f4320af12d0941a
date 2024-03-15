@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Workflow+1: Alfredo Moralejo <amoralej@redhat.com>
+Code-Review+2: Alfredo Moralejo <amoralej@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Fri, 15 Mar 2024 15:25:13 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/placement-distgit/+/52299
+Project: openstack/placement-distgit
+Branch: refs/heads/caracal-rdo
