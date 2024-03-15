@@ -1,5 +1,6 @@
+%global milestone .0rc1
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
@@ -17,14 +18,18 @@ claiming providers of classes of inventory representing available resources \
 in a cloud.
 
 Name:             openstack-placement
-Version:          XXX
-Release:          XXX
+Version:          11.0.0
+Release:          0.1%{?milestone}%{?dist}
 Summary:          OpenStack Placement
 
 License:          Apache-2.0
 URL:              http://git.openstack.org/cgit/openstack/placement/
 
 Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz
+#
+# patches_base=11.0.0.0rc1
+#
+
 Source1:          placement-dist.conf
 Source2:          placement.logrotate
 Source3:          placement-api.conf
@@ -222,4 +227,7 @@ exit 0
 %endif
 
 %changelog
+* Fri Mar 15 2024 RDO <dev@lists.rdoproject.org> 11.0.0-0.1.0rc1
+- Update to 11.0.0.0rc1
+
 
