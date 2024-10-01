@@ -223,3 +223,4 @@ exit 0
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/placement/commit/1eb7d7e7ecd95db70e91f71564adafd2435b86cd
