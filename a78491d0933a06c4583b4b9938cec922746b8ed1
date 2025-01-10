@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "833571be_89f0afe8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 981
+      },
+      "writtenOn": "2025-01-10T15:05:35Z",
+      "side": 1,
+      "message": "https://bugs.launchpad.net/placement/+bug/2091584",
+      "revId": "a78491d0933a06c4583b4b9938cec922746b8ed1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
