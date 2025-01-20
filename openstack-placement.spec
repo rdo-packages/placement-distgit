@@ -85,7 +85,6 @@ Requires:       openstack-placement-common = %{version}-%{release}
 Requires:       python3-hacking >= 0.12.0
 Requires:       python3-coverage >= 4.0
 Requires:       python3-fixtures >= 3.0.0
-Requires:       python3-mock >= 2.0.0
 Requires:       python3-PyMySQL >= 0.7.6
 Requires:       python3-oslotest >= 3.4.0
 Requires:       python3-stestr >= 1.0.0
