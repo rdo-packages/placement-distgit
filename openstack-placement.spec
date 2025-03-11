@@ -8,7 +8,9 @@
 %if ! 0%{?with_doc}
 %global excluded_brs %{excluded_brs} sphinx openstackdocstheme
 %endif
-%global with_doc 1
+# we don't build sphinxcontrib-actdiag and -actdiag anymore as they are retired in Fedora
+# and does not build with py3.12 for CS10.
+%global with_doc 0
 %global distro  RDO
 
 %global common_desc \
