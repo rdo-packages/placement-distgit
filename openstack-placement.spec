@@ -2,6 +2,8 @@
 %global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+%{?dlrn: %global tarsources openstack-placement}
+%{!?dlrn: %global tarsources openstack_placement}
 # we are excluding some BRs from automatic generator
 %global excluded_brs doc8 bandit pre-commit hacking flake8-import-order bashate os-api-ref whereto
 # Exclude sphinx from BRs if docs are disabled
@@ -26,13 +28,13 @@ Summary:          OpenStack Placement
 License:          Apache-2.0
 URL:              http://git.openstack.org/cgit/openstack/placement/
 
-Source0:          https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz
+Source0:          https://tarballs.openstack.org/placement/%{tarsources}-%{upstream_version}.tar.gz
 Source1:          placement-dist.conf
 Source2:          placement.logrotate
 Source3:          placement-api.conf
 # Required for tarball sources verification
 %if 0%{?sources_gpg} == 1
-Source101:        https://tarballs.openstack.org/placement/%{name}-%{upstream_version}.tar.gz.asc
+Source101:        https://tarballs.openstack.org/placement/%{tarsources}-%{upstream_version}.tar.gz.asc
 Source102:        https://releases.openstack.org/_static/%{sources_gpg_sign}.txt
 %endif
 
@@ -116,7 +118,7 @@ This package contains documentation files for Placement.
 %if 0%{?sources_gpg} == 1
 %{gpgverify}  --keyring=%{SOURCE102} --signature=%{SOURCE101} --data=%{SOURCE0}
 %endif
-%autosetup -n openstack-placement-%{upstream_version} -S git
+%autosetup -n %{tarsource}-%{upstream_version} -S git
 
 find . \( -name .gitignore -o -name .placeholder \) -delete
 
