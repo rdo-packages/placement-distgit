@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x815AFEC729392386480E076DCC0DFE2D21C023C9
+%global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
@@ -17,7 +17,7 @@ claiming providers of classes of inventory representing available resources \
 in a cloud.
 
 Name:             openstack-placement
-Version:          10.0.0
+Version:          10.0.1
 Release:          1%{?dist}
 Summary:          OpenStack Placement
 
@@ -229,6 +229,9 @@ exit 0
 %endif
 
 %changelog
+* Thu Apr 17 2025 RDO <dev@lists.rdoproject.org> 10.0.1-1
+- Update to 10.0.1
+
 * Wed Oct 04 2023 RDO <dev@lists.rdoproject.org> 10.0.0-1
 - Update to 10.0.0
 
