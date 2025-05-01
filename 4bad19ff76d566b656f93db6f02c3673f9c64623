@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7c114db_ad206577",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2025-05-01T23:40:46Z",
+      "side": 1,
+      "message": "do you mean first time starting Apache.\n\nthere is no dependency between placement and horizon in this case other then the fact they will both be potentially virtual host on the same Apache server instance.",
+      "range": {
+        "startLine": 9,
+        "startChar": 131,
+        "endLine": 9,
+        "endChar": 139
+      },
+      "revId": "4bad19ff76d566b656f93db6f02c3673f9c64623",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "8a2b4373_a84f032d",
@@ -14,6 +37,23 @@
       "writtenOn": "2025-05-01T22:40:02Z",
       "side": 1,
       "message": "@jcapitao@redhat.com hello, please review this changes, I think we add it in next update.",
+      "revId": "4bad19ff76d566b656f93db6f02c3673f9c64623",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "187e0b03_eb88cfa5",
+        "filename": "placement-api.conf",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2025-05-01T23:40:46Z",
+      "side": 1,
+      "message": "i think this is ok  if your apache is not allowd to acces /usr/bin by default.\nbut  keep in mind this console csript may be remove in the future.\n\nIt depends on a nonstandard Python packaging extension provided by PBR that we plan to remove in the future.\n\nwe may just replace the wsgi script entry point with a standard console_script entrypoint in the same location. that would be transparent to rdo \n\nbut we would prefer that the module format be preferd over the script.\n\ni dont think mod_wsgi currently supports the module format\n\nthe general intent is to normalise our module layout across openstack\nso that the api entry point will be \"\u003cservice\u003e.wsgi.api:application\"\n\nthis is similar to collas config\n\nhttps://github.com/openstack/kolla-ansible/blob/master/ansible/roles/placement/templates/placement-api-wsgi.conf.j2#L34-L38\n\nalthou its not required by our operator based instealler \n\nhttps://github.com/openstack-k8s-operators/placement-operator/blob/main/templates/placementapi/config/httpd.conf\n\ntripleo deployed things a little differently \n\nwith \n WSGIScriptAlias /placement \"/var/www/cgi-bin/placement/placement-api\"\n \n and\n \n   \u003cDirectory \"/var/www/cgi-bin/placement\"\u003e\n    Options -Indexes +FollowSymLinks +MultiViews\n    AllowOverride None\n    Require all granted\n  \u003c/Directory\u003e",
       "revId": "4bad19ff76d566b656f93db6f02c3673f9c64623",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
