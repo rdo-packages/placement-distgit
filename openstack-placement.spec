@@ -5,7 +5,7 @@
 %{?dlrn: %global tarsources openstack-placement}
 %{!?dlrn: %global tarsources openstack_placement}
 # we are excluding some BRs from automatic generator
-%global excluded_brs doc8 bandit pre-commit hacking flake8-import-order bashate os-api-ref whereto
+%global excluded_brs doc8 bandit pre-commit hacking flake8-import-order bashate os-api-ref whereto psycopg2
 # Exclude sphinx from BRs if docs are disabled
 %if ! 0%{?with_doc}
 %global excluded_brs %{excluded_brs} sphinx openstackdocstheme
