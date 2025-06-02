@@ -4,6 +4,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global with_doc 1
 %global distro  RDO
+%global rhosp 0
 
 %global common_desc \
 OpenStack Placement provides an HTTP service for managing, selecting, and \
@@ -111,7 +112,11 @@ Requires:         python3-webob >= 1.8.2
 Requires:         python3-keystonemiddleware >= 4.18.0
 Requires:         python3-jsonschema >= 3.2.0
 Requires:         python3-microversion-parse >= 0.2.1
+%if 0%{?rhosp} == 0
 Requires:         python3-os-traits >= 2.10.0
+%else
+Requires:         python3-os-traits >= 3.4.0
+%endif
 Requires:         python3-os-resource-classes >= 1.1.0
 Requires:         python3-oslo-concurrency >= 3.26.0
 Requires:         python3-oslo-config >= 2:6.7.0
