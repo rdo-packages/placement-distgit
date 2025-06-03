@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a2aaa34_ce363c28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2025-06-03T09:49:39Z",
+      "side": 1,
+      "message": "im not sure if we need to set disto based on the rhosp flag but over all this looks fine",
+      "revId": "e2840c335dbfbf1d5eda01dcb7d9bfc16b442ba8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abb43cfe_dc8a8bdd",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2025-06-03T09:49:39Z",
+      "side": 1,
+      "message": "unlinke the nova change rhosp was not deifed before so this is correct\nwe may want to also set the disto based on this like nova so this would look liek this\n```\n%global rhosp 0\nif 0%{?rhosp} \u003d\u003d 0\n%global distro     RDO\n%else\n%global distro     Red Hat\n%endif\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 15
+      },
+      "revId": "e2840c335dbfbf1d5eda01dcb7d9bfc16b442ba8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
