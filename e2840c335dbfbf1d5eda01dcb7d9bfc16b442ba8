@@ -18,6 +18,23 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9c063d4_76c4e6c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2025-06-03T09:58:16Z",
+      "side": 1,
+      "message": "adding artom as comptues current rdo rep. we might revisit that going forwad and make sure that there are other reviews in both the eu/na timezone to be able to look at this more propmtly",
+      "revId": "e2840c335dbfbf1d5eda01dcb7d9bfc16b442ba8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "abb43cfe_dc8a8bdd",
