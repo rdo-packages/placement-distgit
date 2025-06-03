@@ -80,6 +80,30 @@
       },
       "revId": "e2840c335dbfbf1d5eda01dcb7d9bfc16b442ba8",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "595db6a8_8081ac4b",
+        "filename": "openstack-placement.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 935
+      },
+      "writtenOn": "2025-06-03T11:54:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "085b2ec8_8f3d1e15",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 15
+      },
+      "revId": "e2840c335dbfbf1d5eda01dcb7d9bfc16b442ba8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
