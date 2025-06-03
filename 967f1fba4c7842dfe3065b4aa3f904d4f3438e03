@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "051c31ab_24c180e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2025-06-03T09:56:46Z",
+      "side": 1,
+      "message": "note artom is currently the only comptue member with rdo merge rights, kashyap and i gave them up when we mvoed teams last autumn.",
+      "revId": "967f1fba4c7842dfe3065b4aa3f904d4f3438e03",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eb01572a_342ce7cd",
