@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c2b3a6c_d76a6036",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 935
+      },
+      "writtenOn": "2025-08-29T14:57:35Z",
+      "side": 1,
+      "message": "It looks like the build running with python3.9 while placement dropped the py3.9 support on master recently. I don\u0027t know where the build env takes the python version\n\n```\n  Preparing metadata (pyproject.toml): started\n  Running command /usr/bin/python3 /usr/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/tmpqtikdkjq\n  /usr/lib/python3.9/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n    warnings.warn(\n  /usr/lib/python3.9/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n    warnings.warn(\n  running dist_info\n  creating /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info\n  writing /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/PKG-INFO\n  writing dependency_links to /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/dependency_links.txt\n  writing entry points to /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/entry_points.txt\n  writing requirements to /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/requires.txt\n  writing top-level names to /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/top_level.txt\n  writing pbr to /builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/pbr.json\n  [pbr] Processing SOURCES.txt\n  writing manifest file \u0027/builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/SOURCES.txt\u0027\n  [pbr] In git context, generating filelist from git\n  warning: no previously-included files found matching \u0027.gitignore\u0027\n  warning: no previously-included files found matching \u0027.gitreview\u0027\n  warning: no previously-included files matching \u0027*.pyc\u0027 found anywhere in distribution\n  adding license file \u0027LICENSE\u0027\n  adding license file \u0027AUTHORS\u0027\n  writing manifest file \u0027/builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement.egg-info/SOURCES.txt\u0027\n  creating \u0027/builddir/build/BUILD/openstack-placement-13.1.0.dev10/.pyproject-builddir/pip-modern-metadata-t7tr32pv/openstack_placement-13.1.0.dev10.dist-info\u0027\n  adding license file \"LICENSE\" (matched pattern \"LICEN[CS]E*\")\n  adding license file \"AUTHORS\" (matched pattern \"AUTHORS*\")\n  Preparing metadata (pyproject.toml): finished with status \u0027done\u0027\nERROR: Package \u0027openstack-placement\u0027 requires a different Python: 3.9.23 not in \u0027\u003e\u003d3.10\u0027\n```",
+      "revId": "82ff7816f8a7a585ec94b857a8bcfc1d71ce9459",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
