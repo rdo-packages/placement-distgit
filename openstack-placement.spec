@@ -229,3 +229,4 @@ exit 0
 - Update to 13.0.0.0rc1
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/placement/commit/fe1e83d225f67d558987b6efd943d4782ecf0c77
